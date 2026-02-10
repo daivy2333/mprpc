@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/mprpcapplication.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpcapplication.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/mprpcconfig.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpcconfig.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/rpcprovider.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/rpcprovider.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/rpcheader.pb.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/rpcheader.pb.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpcchannel.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/mprpcchannel.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpccontroller.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/logger.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/logger.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/logger.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/zookeeperutil.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/src/zookeeperutil.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o example/callee/CMakeFiles/provider.dir/friendservice.cc.o -c /home/daivy/projects/muduo_learn/mprpc/example/callee/friendservice.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/example/callee/friendservice.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/daivy/projects/muduo_learn/mprpc/example/friend.pb.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/example/friend.pb.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/daivy/projects/muduo_learn/mprpc/example/caller/callfriendservice.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/example/caller/callfriendservice.cc"
+},
+{
+  "directory": "/home/daivy/projects/muduo_learn/mprpc/build",
+  "command": "/usr/bin/g++ -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -g -o example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/daivy/projects/muduo_learn/mprpc/example/friend.pb.cc",
+  "file": "/home/daivy/projects/muduo_learn/mprpc/example/friend.pb.cc"
+}
+]

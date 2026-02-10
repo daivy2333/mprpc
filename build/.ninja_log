@@ -1,0 +1,27 @@
+# ninja log v5
+1	542	1770634773043455739	src/CMakeFiles/re_rpc.dir/mprpcconfig.cc.o	e36391288d0345f9
+2	795	1770629192438817713	example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o	4744050b079d8a73
+3	1062	1770549156139145020	example/callee/CMakeFiles/provider.dir/__/user.pb.cc.o	2c7cf25a9ba38eb0
+1	697	1770549184086517204	example/callee/CMakeFiles/provider.dir/userservice.cc.o	c28160d343f5f680
+1236	1287	1770634773790250663	../lib/libre_rpc.a	6f33a526711853f9
+3	858	1770549155934177356	example/caller/CMakeFiles/consumer.dir/calluserservice.cc.o	73d4838882edb878
+1	769	1770385090499609416	src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o	eaabc8a880c3aa01
+1288	1493	1770634773994597534	../bin/provider	8f45b23d532f6f9d
+2	541	1770634773043455739	src/CMakeFiles/re_rpc.dir/logger.cc.o	77712ec7adcbb079
+0	317	1770628843600563799	src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o	50bbdb229045dce
+2	1016	1770634773519026635	example/callee/CMakeFiles/provider.dir/friendservice.cc.o	badeb04cdeabdcff
+3	1066	1770551370668458513	example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o	a30673412976a6c
+4	1005	1770551370608460176	example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o	ad1fcf1e7ed6419f
+1	1236	1770634773738235096	src/CMakeFiles/re_rpc.dir/rpcprovider.cc.o	4a58bd4e2e3a34d8
+3	1061	1770549156139145020	example/caller/CMakeFiles/consumer.dir/__/user.pb.cc.o	58d12c92113d9539
+4	837	1770628808397704417	src/CMakeFiles/re_rpc.dir/mprpcapplication.cc.o	9befdb7bf90dd86c
+1288	1395	1770634773901712591	../bin/consumer	85025ff10fe79eae
+0	73	1770740793592889074	build.ninja	e536deacd24d78ac
+2	797	1770629192442417714	src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o	baa20829c8472f69
+2	577	1770743145856114040	src/CMakeFiles/re_rpc.dir/logger.cc.o	77712ec7adcbb079
+3	795	1770743146071771308	src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o	1dcc4b517bfbbe55
+2	856	1770743146135718784	src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o	baa20829c8472f69
+2	1282	1770743146559370812	src/CMakeFiles/re_rpc.dir/rpcprovider.cc.o	4a58bd4e2e3a34d8
+1282	1353	1770743146631311721	../lib/libre_rpc.a	7a37d8a3f88dcc19
+1353	1490	1770743146767200109	../bin/consumer	a9460fb183c944e6
+1353	1608	1770743146883104908	../bin/provider	e3a1460f8f499911

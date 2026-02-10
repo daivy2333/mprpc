@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libre_rpc.so -o ../../lib/libre_rpc.so CMakeFiles/re_rpc.dir/mprpcapplication.cc.o CMakeFiles/re_rpc.dir/mprpcconfig.cc.o CMakeFiles/re_rpc.dir/rpcprovider.cc.o   -L/home/daivy/projects/muduo_learn/mprpc/lib 

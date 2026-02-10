@@ -1,0 +1,5 @@
+2026-2-11 => [info]first log msg
+2026-2-11 => [info]/home/daivy/projects/muduo_learn/mprpc/example/callee/friendservice.cc:main:46
+2026-2-11 => [info]FriendServiceRpc2026-2-11 => [info]GetFriendList2026-2-11 => [info]start: 127.0.0.1 port: 80002026-2-11 => [info]first log msg
+2026-2-11 => [info]/home/daivy/projects/muduo_learn/mprpc/example/callee/friendservice.cc:main:46
+2026-2-11 => [info]FriendServiceRpc2026-2-11 => [info]GetFriendList2026-2-11 => [info]start: 127.0.0.1 port: 8000
