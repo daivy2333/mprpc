@@ -29,9 +29,9 @@ void RpcProvider::Run()
 
     uint16_t port = atoi(MprpcApplication::GetInstance().Getconfig().Load("rpcserverport").c_str());
     
-    muduo::net::InetAddress address(ip, port);
-
-    muduo::net::TcpServer server(&m_eventLoop, address, "RpcProvider");
+    // InetAddress address(ip, port);
+    InetAddress address(port, ip);
+    TcpServer server(&m_eventLoop, address);
 
     server.setConnectionCallback(bind(&RpcProvider::OnConnection, this, placeholders::_1));
     server.setMessageCallback(bind(&RpcProvider::OnMessage, this, placeholders::_1,
@@ -62,7 +62,7 @@ void RpcProvider::Run()
  * 当有新的连接建立或连接断开时被调用
  * @param conn TCP连接的智能指针，包含连接的相关信息
  */
-void RpcProvider::OnConnection(const muduo::net::TcpConnectionPtr& conn)
+void RpcProvider::OnConnection(const TcpConnectionPtr& conn)
 {
     // 检查连接状态是否为已连接
     if(!conn->connected())
@@ -73,7 +73,7 @@ void RpcProvider::OnConnection(const muduo::net::TcpConnectionPtr& conn)
 }
 
 
-void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn, muduo::net::Buffer* buffer, muduo::Timestamp)
+void RpcProvider::OnMessage(const TcpConnectionPtr& conn, Buffer* buffer, Timestamp)
 {
     string recv_buf = buffer->retrieveAllAsString();
 
@@ -134,14 +134,14 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr& conn, muduo::net
     }
     google::protobuf::Message* response = service->GetResponsePrototype(method).New();
 
-    google::protobuf::Closure* done = google::protobuf::NewCallback<RpcProvider, const muduo::net::TcpConnectionPtr&, google::protobuf::Message*>
+    google::protobuf::Closure* done = google::protobuf::NewCallback<RpcProvider, const TcpConnectionPtr&, google::protobuf::Message*>
     (this, &RpcProvider::SendRpcResponse, conn, response);
 
 
     service->CallMethod(method, nullptr, request, response, done);
 }
 
-void RpcProvider::SendRpcResponse(const muduo::net::TcpConnectionPtr& conn, google::protobuf::Message* response)
+void RpcProvider::SendRpcResponse(const TcpConnectionPtr& conn, google::protobuf::Message* response)
 {
     string response_str;
     if(response->SerializeToString(&response_str))

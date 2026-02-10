@@ -130,6 +130,30 @@ re_rpc/fast:
 	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/build
 .PHONY : re_rpc/fast
 
+logger.o: logger.cc.o
+.PHONY : logger.o
+
+# target to build an object file
+logger.cc.o:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/logger.cc.o
+.PHONY : logger.cc.o
+
+logger.i: logger.cc.i
+.PHONY : logger.i
+
+# target to preprocess a source file
+logger.cc.i:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/logger.cc.i
+.PHONY : logger.cc.i
+
+logger.s: logger.cc.s
+.PHONY : logger.s
+
+# target to generate assembly for a file
+logger.cc.s:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/logger.cc.s
+.PHONY : logger.cc.s
+
 mprpcapplication.o: mprpcapplication.cc.o
 .PHONY : mprpcapplication.o
 
@@ -153,6 +177,30 @@ mprpcapplication.s: mprpcapplication.cc.s
 mprpcapplication.cc.s:
 	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpcapplication.cc.s
 .PHONY : mprpcapplication.cc.s
+
+mprpcchannel.o: mprpcchannel.cc.o
+.PHONY : mprpcchannel.o
+
+# target to build an object file
+mprpcchannel.cc.o:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o
+.PHONY : mprpcchannel.cc.o
+
+mprpcchannel.i: mprpcchannel.cc.i
+.PHONY : mprpcchannel.i
+
+# target to preprocess a source file
+mprpcchannel.cc.i:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.i
+.PHONY : mprpcchannel.cc.i
+
+mprpcchannel.s: mprpcchannel.cc.s
+.PHONY : mprpcchannel.s
+
+# target to generate assembly for a file
+mprpcchannel.cc.s:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.s
+.PHONY : mprpcchannel.cc.s
 
 mprpcconfig.o: mprpcconfig.cc.o
 .PHONY : mprpcconfig.o
@@ -178,6 +226,54 @@ mprpcconfig.cc.s:
 	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpcconfig.cc.s
 .PHONY : mprpcconfig.cc.s
 
+mprpccontroller.o: mprpccontroller.cc.o
+.PHONY : mprpccontroller.o
+
+# target to build an object file
+mprpccontroller.cc.o:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o
+.PHONY : mprpccontroller.cc.o
+
+mprpccontroller.i: mprpccontroller.cc.i
+.PHONY : mprpccontroller.i
+
+# target to preprocess a source file
+mprpccontroller.cc.i:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.i
+.PHONY : mprpccontroller.cc.i
+
+mprpccontroller.s: mprpccontroller.cc.s
+.PHONY : mprpccontroller.s
+
+# target to generate assembly for a file
+mprpccontroller.cc.s:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.s
+.PHONY : mprpccontroller.cc.s
+
+rpcheader.pb.o: rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.o
+
+# target to build an object file
+rpcheader.pb.cc.o:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o
+.PHONY : rpcheader.pb.cc.o
+
+rpcheader.pb.i: rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.i
+
+# target to preprocess a source file
+rpcheader.pb.cc.i:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.i
+.PHONY : rpcheader.pb.cc.i
+
+rpcheader.pb.s: rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.s
+
+# target to generate assembly for a file
+rpcheader.pb.cc.s:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.s
+.PHONY : rpcheader.pb.cc.s
+
 rpcprovider.o: rpcprovider.cc.o
 .PHONY : rpcprovider.o
 
@@ -202,6 +298,30 @@ rpcprovider.cc.s:
 	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/rpcprovider.cc.s
 .PHONY : rpcprovider.cc.s
 
+zookeeperutil.o: zookeeperutil.cc.o
+.PHONY : zookeeperutil.o
+
+# target to build an object file
+zookeeperutil.cc.o:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o
+.PHONY : zookeeperutil.cc.o
+
+zookeeperutil.i: zookeeperutil.cc.i
+.PHONY : zookeeperutil.i
+
+# target to preprocess a source file
+zookeeperutil.cc.i:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.i
+.PHONY : zookeeperutil.cc.i
+
+zookeeperutil.s: zookeeperutil.cc.s
+.PHONY : zookeeperutil.s
+
+# target to generate assembly for a file
+zookeeperutil.cc.s:
+	cd /home/daivy/projects/muduo_learn/mprpc/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/re_rpc.dir/build.make src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.s
+.PHONY : zookeeperutil.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +331,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... re_rpc"
+	@echo "... logger.o"
+	@echo "... logger.i"
+	@echo "... logger.s"
 	@echo "... mprpcapplication.o"
 	@echo "... mprpcapplication.i"
 	@echo "... mprpcapplication.s"
+	@echo "... mprpcchannel.o"
+	@echo "... mprpcchannel.i"
+	@echo "... mprpcchannel.s"
 	@echo "... mprpcconfig.o"
 	@echo "... mprpcconfig.i"
 	@echo "... mprpcconfig.s"
+	@echo "... mprpccontroller.o"
+	@echo "... mprpccontroller.i"
+	@echo "... mprpccontroller.s"
+	@echo "... rpcheader.pb.o"
+	@echo "... rpcheader.pb.i"
+	@echo "... rpcheader.pb.s"
 	@echo "... rpcprovider.o"
 	@echo "... rpcprovider.i"
 	@echo "... rpcprovider.s"
+	@echo "... zookeeperutil.o"
+	@echo "... zookeeperutil.i"
+	@echo "... zookeeperutil.s"
 .PHONY : help
 
 

@@ -111,25 +111,106 @@ src/CMakeFiles/re_rpc.dir/rpcprovider.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/rpcprovider.cc.s"
 	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/rpcprovider.cc -o CMakeFiles/re_rpc.dir/rpcprovider.cc.s
 
+src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/re_rpc.dir/flags.make
+src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o: ../src/rpcheader.pb.cc
+src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o: src/CMakeFiles/re_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o -MF CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o.d -o CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/rpcheader.pb.cc
+
+src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re_rpc.dir/rpcheader.pb.cc.i"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daivy/projects/muduo_learn/mprpc/src/rpcheader.pb.cc > CMakeFiles/re_rpc.dir/rpcheader.pb.cc.i
+
+src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/rpcheader.pb.cc.s"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/rpcheader.pb.cc -o CMakeFiles/re_rpc.dir/rpcheader.pb.cc.s
+
+src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o: src/CMakeFiles/re_rpc.dir/flags.make
+src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o: ../src/mprpcchannel.cc
+src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o: src/CMakeFiles/re_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o -MF CMakeFiles/re_rpc.dir/mprpcchannel.cc.o.d -o CMakeFiles/re_rpc.dir/mprpcchannel.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpcchannel.cc
+
+src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re_rpc.dir/mprpcchannel.cc.i"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daivy/projects/muduo_learn/mprpc/src/mprpcchannel.cc > CMakeFiles/re_rpc.dir/mprpcchannel.cc.i
+
+src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/mprpcchannel.cc.s"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/mprpcchannel.cc -o CMakeFiles/re_rpc.dir/mprpcchannel.cc.s
+
+src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o: src/CMakeFiles/re_rpc.dir/flags.make
+src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o: ../src/mprpccontroller.cc
+src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o: src/CMakeFiles/re_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o -MF CMakeFiles/re_rpc.dir/mprpccontroller.cc.o.d -o CMakeFiles/re_rpc.dir/mprpccontroller.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/mprpccontroller.cc
+
+src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re_rpc.dir/mprpccontroller.cc.i"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daivy/projects/muduo_learn/mprpc/src/mprpccontroller.cc > CMakeFiles/re_rpc.dir/mprpccontroller.cc.i
+
+src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/mprpccontroller.cc.s"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/mprpccontroller.cc -o CMakeFiles/re_rpc.dir/mprpccontroller.cc.s
+
+src/CMakeFiles/re_rpc.dir/logger.cc.o: src/CMakeFiles/re_rpc.dir/flags.make
+src/CMakeFiles/re_rpc.dir/logger.cc.o: ../src/logger.cc
+src/CMakeFiles/re_rpc.dir/logger.cc.o: src/CMakeFiles/re_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/re_rpc.dir/logger.cc.o"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/re_rpc.dir/logger.cc.o -MF CMakeFiles/re_rpc.dir/logger.cc.o.d -o CMakeFiles/re_rpc.dir/logger.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/logger.cc
+
+src/CMakeFiles/re_rpc.dir/logger.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re_rpc.dir/logger.cc.i"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daivy/projects/muduo_learn/mprpc/src/logger.cc > CMakeFiles/re_rpc.dir/logger.cc.i
+
+src/CMakeFiles/re_rpc.dir/logger.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/logger.cc.s"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/logger.cc -o CMakeFiles/re_rpc.dir/logger.cc.s
+
+src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o: src/CMakeFiles/re_rpc.dir/flags.make
+src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o: ../src/zookeeperutil.cc
+src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o: src/CMakeFiles/re_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o -MF CMakeFiles/re_rpc.dir/zookeeperutil.cc.o.d -o CMakeFiles/re_rpc.dir/zookeeperutil.cc.o -c /home/daivy/projects/muduo_learn/mprpc/src/zookeeperutil.cc
+
+src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/re_rpc.dir/zookeeperutil.cc.i"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/daivy/projects/muduo_learn/mprpc/src/zookeeperutil.cc > CMakeFiles/re_rpc.dir/zookeeperutil.cc.i
+
+src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/re_rpc.dir/zookeeperutil.cc.s"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/daivy/projects/muduo_learn/mprpc/src/zookeeperutil.cc -o CMakeFiles/re_rpc.dir/zookeeperutil.cc.s
+
 # Object files for target re_rpc
 re_rpc_OBJECTS = \
 "CMakeFiles/re_rpc.dir/mprpcapplication.cc.o" \
 "CMakeFiles/re_rpc.dir/mprpcconfig.cc.o" \
-"CMakeFiles/re_rpc.dir/rpcprovider.cc.o"
+"CMakeFiles/re_rpc.dir/rpcprovider.cc.o" \
+"CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o" \
+"CMakeFiles/re_rpc.dir/mprpcchannel.cc.o" \
+"CMakeFiles/re_rpc.dir/mprpccontroller.cc.o" \
+"CMakeFiles/re_rpc.dir/logger.cc.o" \
+"CMakeFiles/re_rpc.dir/zookeeperutil.cc.o"
 
 # External object files for target re_rpc
 re_rpc_EXTERNAL_OBJECTS =
 
-../lib/libre_rpc.so: src/CMakeFiles/re_rpc.dir/mprpcapplication.cc.o
-../lib/libre_rpc.so: src/CMakeFiles/re_rpc.dir/mprpcconfig.cc.o
-../lib/libre_rpc.so: src/CMakeFiles/re_rpc.dir/rpcprovider.cc.o
-../lib/libre_rpc.so: src/CMakeFiles/re_rpc.dir/build.make
-../lib/libre_rpc.so: src/CMakeFiles/re_rpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libre_rpc.so"
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/mprpcapplication.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/mprpcconfig.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/rpcprovider.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/rpcheader.pb.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/mprpcchannel.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/mprpccontroller.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/logger.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/zookeeperutil.cc.o
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/build.make
+../lib/libre_rpc.a: src/CMakeFiles/re_rpc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/daivy/projects/muduo_learn/mprpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library ../../lib/libre_rpc.a"
+	cd /home/daivy/projects/muduo_learn/mprpc/build/src && $(CMAKE_COMMAND) -P CMakeFiles/re_rpc.dir/cmake_clean_target.cmake
 	cd /home/daivy/projects/muduo_learn/mprpc/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/re_rpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/re_rpc.dir/build: ../lib/libre_rpc.so
+src/CMakeFiles/re_rpc.dir/build: ../lib/libre_rpc.a
 .PHONY : src/CMakeFiles/re_rpc.dir/build
 
 src/CMakeFiles/re_rpc.dir/clean:

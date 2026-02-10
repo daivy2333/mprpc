@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example
+CXX_INCLUDES = -I/home/daivy/projects/muduo_learn/mprpc/src/include -I/home/daivy/projects/muduo_learn/mprpc/example -I/home/daivy/projects/muduo_learn/mprpc/../re_muduo
 
-CXX_FLAGS = -g
+CXX_FLAGS = 
 

@@ -12,8 +12,10 @@ find_package(Protobuf REQUIRED)
 include_directories(${PROJECT_SOURCE_DIR}/src/include)
 include_directories(${PROJECT_SOURCE_DIR}/example)
 include_directories(${Protobuf_INCLUDE_DIRS})
+include_directories(${PROJECT_SOURCE_DIR}/../re_muduo)
 
 link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(${PROJECT_SOURCE_DIR}/../re_muduo/lib)
 
 add_subdirectory(src)
 add_subdirectory(example)
